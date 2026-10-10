@@ -1,0 +1,25 @@
+node_modules/
+dist/
+*.log
+.env
+.env.*
+!.env.example
+server/dist/
+server/node_modules/
+.pnpm-store/
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+server/.env
+server/.env.*
+!server/.env.example
+
+# Dependencies and generated files
+node_modules/
+server/node_modules/
+dist/
+server/dist/
+build/
+.DS_Store
